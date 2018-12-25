@@ -1,0 +1,17 @@
+#canvas-svg {
+	border: 1px solid #000;
+}
+
+#elems_panel {
+	display: inline-flex;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+#center {
+	cursor: grab;
+}
+
+#start:active, #center:active, #end:active {
+	cursor: move;
+}
